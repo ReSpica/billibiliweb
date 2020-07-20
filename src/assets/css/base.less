@@ -1,0 +1,92 @@
+ @color-bg:#f4f4f4;
+ 
+ @color-w:white;
+ @color-p:#ff9db5;
+ @color-dp:#fb7299;
+ .bgc-w{
+ 	background-color: @color-w;
+ } 
+ .bgc-p{
+	background-color:  @color-p;
+}
+.bgc-dp{
+	background-color:  @color-dp;
+}
+.color-w{
+	color: @color-w;
+}
+.color-p{
+	color: @color-p;
+}
+.color-dp{
+	color:@color-dp;
+}
+ /////////////////////////////////////////
+ .d-flex{
+	 display: flex;
+ }
+ .flex-1{
+	 flex:1;
+ }
+ @flex-st:flex-start;
+ @flex-ed:flex-end;
+ @flex-cr:center;
+ @flex-bn:space-between;
+ @flex-ad:space-around;
+ @flex-stretch:stretch;
+ .jc-start{
+	 justify-content: @flex-st;
+ }
+ .jc-end{
+ 	 justify-content: @flex-ed;
+ }
+ .jc-center{
+ 	 justify-content: @flex-cr;
+ }
+ .jc-between{
+ 	 justify-content: @flex-bn;
+ }
+ .jc-around{
+ 	 justify-content: @flex-ad;
+ }
+
+ .ai-start{
+	 align-items: @flex-st;
+ }
+ .ai-end{
+ 	 align-items: @flex-ed;
+ }
+ .ai-center{
+ 	 align-items: @flex-cr;
+ }
+ .ai-stretch{
+ 	 align-items: @flex-stretch;
+ }
+ ///////////////////////////////////////////////
+ 
+ 
+ 
+ 
+/* body的默认样式 */
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	background-color: @color-bg;
+	p{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		list-style: none;
+		text-decoration: none;
+		color: #b3b2b2;
+	}
+}
+/* html的默认样式 */
+html{
+	font: 4.267vw -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+}
+
+/* 循环字体大小 */
+
